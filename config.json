@@ -1,6 +1,6 @@
 {
 	"admin_server": {
-		"listen_url": ":80",
+		"listen_url": ":{{/Env.PORT}}",
 		"use_tls": true,
 		"cert_path": "gophish_admin.crt",
 		"key_path": "gophish_admin.key",
