@@ -1,13 +1,13 @@
 {
 	"admin_server": {
-		"listen_url": "0.0.0.0:3333",
+		"listen_url": ":80",
 		"use_tls": false,
 		"cert_path": "gophish_admin.crt",
 		"key_path": "gophish_admin.key",
-		"trusted_origins": ["8abb.up.railway.app"]
+		"trusted_origins": ["https://gophish-production-8abb.up.railway.app"]
 	},
 	"phish_server": {
-		"listen_url": "0.0.0.0:80",
+		"listen_url": "0.0.0.0:8080",
 		"use_tls": false,
 		"cert_path": "example.crt",
 		"key_path": "example.key"
@@ -15,7 +15,7 @@
 	"db_name": "sqlite3",
 	"db_path": "gophish.db",
 	"migrations_prefix": "db/db_",
-	"contact_address": "",
+	"contact_address": "mreyna9@depaul.edu",
 	"logging": {
 		"filename": "",
 		"level": ""
